@@ -11,10 +11,10 @@
             "homePage": "https://www.252035.xyz/xs/tvbox/nostr.html"
         },
         {
-            "key": "枫叶",
+            "key": "FY",
             "name": "枫叶",
             "type": 3,
-            "searchable": 0
+            "searchable": 0,
             "api": "csp_枫叶",
             "homePage": "./html/枫叶.html"
         },
