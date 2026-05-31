@@ -1,7 +1,7 @@
 {
 
-  "spider": "https://nos.netease.com/ysf/b36b5f196bbc71d1a3a6192ba379cf2a.txt;md5;3a4f1cbcc018772b077af417d89357e2",
-  "wallpaper": "https://bing.img.run/rand.php",
+  "spider": "./spider.jar",
+  "wallpaper": "http://127.0.0.1:9978/proxy?do=wallpaper",
   "logo": "https://storage.7x24cc.com/storage-server/presigned/ss1/a6-online-fileupload/newMediaFile/3CEAE9E_773_wexfnw_20250911190012684newMediaFile.gif",
   "sites": [
     {
