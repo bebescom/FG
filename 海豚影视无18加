@@ -618,6 +618,12 @@
             "url": "http://xtvantsc.xyz/singtel.txt"
         },
         {
+            "name": "🐬国际源",
+            "type": 0,
+            "ua": "okhttp",
+            "url": "https://raw.githubusercontent.com/xJEYDAin/iptv/main/output/all_merged.m3u"
+        },
+        {
             "name": "🐬黄蚂蚁先锋推流源",
             "type": 0,
             "ua": "okhttp",
