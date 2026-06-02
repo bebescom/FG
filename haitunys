@@ -292,6 +292,13 @@
         "api":"csp_52sp",
         "homePage":"https://fgblh.github.io/uhuj.github.io/52体育.html"
       },
+        {
+        "key":"TQ",
+        "name":"🐬甜圈丨短剧",
+        "type":3,
+        "api":"csp_tq",
+        "homePage":"https://fgblh.github.io/uhuj.github.io/甜圈.html"
+      },
          {
             "key": "七星短剧",
             "name": "🐬七星丨短剧",
