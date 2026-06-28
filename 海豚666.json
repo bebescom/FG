@@ -46,6 +46,30 @@
          "ext": "https://ghfast.top/https://raw.githubusercontent.com/IY-CPU/IY/main/lib/茫茫.png"
         },
 		{
+            "key": "leo_danmaku",
+            "name": "LEO | 弹幕",
+            "type": 3,
+            "api": "csp_DanmakuSpider",
+            "searchable": 1,
+            "changeable": 0,
+            "index": 1,
+   "jar": "https://gh-proxy.org/https://github.com/Silent1566/CatVodSpider/raw/refs/heads/main/jar/danmu.jar",
+            "ext": {
+                "apiUrls": [
+                    "https://dm.660505.xyz:8443/a123456|W佬",
+"https://danmaku.banye.tech:17777/87654321"
+                ],
+                "autoPushEnabled": true,
+                "silentMode": true,
+                "danmakuStyle": "经典模式",
+                "proxyPort": 5575,
+                "lpAlpha": 0.9,
+                "lpWidth": 0.9,
+                "lpHeight": 0.85,
+                "titleMappingsUrl": "https://gh-proxy.com/https://raw.githubusercontent.com/goodcommunication/mydm/main/yins.json"
+            }
+        },
+		{
 			"key": "fY",
 			"name": "🐬枫叶影院(关梯子使用)",
 			"type": 3,
@@ -580,23 +604,6 @@
         {"name":"-全看-","type":0,"url":"https://jx.quankan.app/?url=","ext":{"header":{"user-agent":"Mozilla/5.0 (Linux; Android 13; V2049A Build/TP1A.220624.014; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/116.0.0.0 Mobile Safari/537.36"}}}
        ],
 		"doh": [
-        {
-  "name": "弹幕",
-  "key": "弹幕豆瓣",
-  "type": 3,
-  "api": "csp_SecureDanmu",
-  "searchable": 1,
-  "jar": "https://ghfast.top/https://raw.githubusercontent.com/goodcommunication/mydm/main/danmu-spider-native.jar",
-  "ext": {
-    "apiUrls": [
-      "https://danmu.iyo.us.ci/theft-dastardly-prognosis-hula-agenda2-dropkick|公益源",
-      "https://logo.saodu.work:8888/87654321|公益源1",
-      "https://dm.ljiaovm.com/luosen|公益源2"
-    ],
-    "titleMappingsUrl": "https://ghfast.top/https://raw.githubusercontent.com/goodcommunication/mydm/main/yins.json",
-    "filter": "./lib/douban.json"
-  }
-},
 	{
       "name": "Google",
       "url": "https://dns.google/dns-query",
