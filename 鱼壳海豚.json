@@ -119,6 +119,12 @@
 			"type": 3,
 			"api": "https://ghfast.top/https://raw.githubusercontent.com/FGBLH/GHK/refs/heads/main/py/金牌APP.py"
 		},
+		{
+			"key": "nmvm",
+			"name": "🐬农民影视.py[追剧]",
+			"type": 3,
+			"api": "https://ghfast.top/https://raw.githubusercontent.com/FGBLH/GHK/refs/heads/main/py/农民影视.py"
+		},
          {
 			"key": "fY",
 			"name": "🐬枫叶影院.py(关梯子使用)[追剧]",
