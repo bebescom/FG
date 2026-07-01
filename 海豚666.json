@@ -77,6 +77,12 @@
 			"api": "https://ghfast.top/https://raw.githubusercontent.com/FGBLH/GHK/refs/heads/main/py/热播APP.py"
 		},
 		{
+			"key": "GZ",
+			"name": "🐬瓜子APP.py",
+			"type": 3,
+			"api": "https://ghfast.top/https://raw.githubusercontent.com/FGBLH/GHK/refs/heads/main/py/瓜子APP.py"
+		},
+		{
 			"key": "nmvm",
 			"name": "🐬农民影视.py",
 			"type": 3,
