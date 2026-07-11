@@ -1,10 +1,18 @@
 [
     {
         "api": "https://cj.rycjapi.com/api.php/provide/vod",
-        "name": "🔵如意"
+        "name": "🐬如意"
     },
     {
-          "api": "https://raw.githubusercontent.com/FGBLH/HKL/refs/heads/main/py/芒果TV.py",
-          "name": "🐬芒果TV"
+          "api": "https://lovedan.net/api.php/provide/vod/",
+          "name": "🐬艾旦影视(聚)(有三级片)🔞"
+    },
+    {
+          "api": "https://ikunzyapi.com/api.php/provide/vod/from/ikm3u8/at/json",
+          "name": "🐬爱坤┃影视(有三级片)"
+    },
+    {
+          "api": "https://api.ukuapi.com/api.php/provide/vod/",
+          "name": "🐬U酷資源(有三级片)"
     }
   ]
