@@ -41,6 +41,8 @@ CLASS_MAP = {
 # 外部解析线路 (拼接URL) - 从 mojiez.net 提取的38个解析接口
 PARSE_APIS = [
     {"name": "默认接口", "url": "https://jx.xmflv.com/?url="},
+    {"name": "789解析1", "url": "https://jiexi.789jiexi.icu:4433/?url="},
+    {"name": "789解析2", "url": "https://jiexi.789jiexi.com/?url="},
     {"name": "我看VIP", "url": "https://a.wkvip.net/?url="},
     {"name": "8090", "url": "https://www.8090g.cn/?url="},
     {"name": "极速解析", "url": "https://jx.2s0.cn/player/?url="},
@@ -51,8 +53,6 @@ PARSE_APIS = [
     {"name": "Jn1解析", "url": "https://yparse.jn1.cc/index.php?url="},
     {"name": "CK解析", "url": "https://www.ckplayer.vip/jiexi/?url="},
     {"name": "Player-JY", "url": "https://jx.playerjy.com/?url="},
-    {"name": "789解析1", "url": "https://jiexi.789jiexi.icu:4433/?url="},
-    {"name": "789解析2", "url": "https://jiexi.789jiexi.com/?url="},
     {"name": "HLS解析", "url": "https://jx.hls.one/?url="},
     {"name": "冰豆解析", "url": "https://bd.jx.cn/?url="},
     {"name": "剖元解析", "url": "https://www.pouyun.com/?url="},
