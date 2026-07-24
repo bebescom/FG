@@ -1,0 +1,64 @@
+name: Sync upstream
+
+on:
+  schedule:
+    # 每6小时运行一次
+    - cron: "19 0 * * *"
+
+  # 支持手动运行
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+concurrency:
+  group: sync-upstream
+  cancel-in-progress: true
+
+jobs:
+  sync:
+    name: Sync FGBLH/HKL
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout fork
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+          token: ${{ secrets.GITHUB_TOKEN }}
+
+      - name: Save workflow file
+        run: |
+          mkdir -p /tmp/fork-workflows
+          cp .github/workflows/sync-upstream.yml \
+            /tmp/fork-workflows/sync-upstream.yml
+
+      - name: Reset main branch to upstream
+        run: |
+          git remote add upstream https://github.com/FGBLH/HKL.git
+          git fetch upstream main
+
+          git checkout main
+          git reset --hard upstream/main
+
+      - name: Restore workflow file
+        run: |
+          mkdir -p .github/workflows
+          cp /tmp/fork-workflows/sync-upstream.yml \
+            .github/workflows/sync-upstream.yml
+
+      - name: Commit workflow if upstream does not contain it
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email \
+            "41898282+github-actions[bot]@users.noreply.github.com"
+
+          git add .github/workflows/sync-upstream.yml
+
+          if ! git diff --cached --quiet; then
+            git commit -m "chore: preserve upstream sync workflow"
+          fi
+
+      - name: Push synchronized branch
+        run: |
+          git push origin main --force-with-lease
